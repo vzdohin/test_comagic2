@@ -4,7 +4,7 @@ import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { Layout, Menu } from "antd";
 import AppHeader from "./components/AppHeader/AppHeader";
 import Sneakers from "./pages/Sneakers/Sneakers";
-import Snippers from "./pages/Snippers/Snippers";
+import Slippers from "./pages/Slippers/Slippers";
 import Boots from "./pages/Boots/Boots";
 import Home from "./pages/Home/Home";
 import Cart from "./components/Cart/Cart";
@@ -23,7 +23,7 @@ const Sidebar = () => {
   const selectedKey =
     location.pathname === "/sneakers"
       ? "1"
-      : location.pathname === "/snippers"
+      : location.pathname === "/slippers"
       ? "2"
       : location.pathname === "/boots"
       ? "3"
@@ -36,7 +36,7 @@ const Sidebar = () => {
     },
     {
       key: "2",
-      label: <Link to="/snippers">Сланцы</Link>,
+      label: <Link to="/slippers">Сланцы</Link>,
     },
     {
       key: "3",
@@ -75,7 +75,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/sneakers" element={<Sneakers />} />
-              <Route path="/snippers" element={<Snippers />} />
+              <Route path="/slippers" element={<Slippers />} />
               <Route path="/boots" element={<Boots />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout-page" element={<CheckoutPage />} />
