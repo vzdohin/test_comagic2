@@ -1,0 +1,14 @@
+.cart {
+  width: 80%;
+  margin: auto;
+}
+
+.cart__total-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cart__total-button {
+  margin-top: 20px;
+}
