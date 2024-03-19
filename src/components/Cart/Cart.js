@@ -23,7 +23,7 @@ const Cart = observer(() => {
       <List
         itemLayout="horizontal"
         dataSource={cartStore.items}
-        locale={{ emptyText: "Корзина пуста" }}
+        locale={{ emptyText: "Корзина пуста :(" }}
         renderItem={(item) => (
           <List.Item
             actions={[
