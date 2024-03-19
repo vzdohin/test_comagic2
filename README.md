@@ -24,5 +24,5 @@
 
 ## Ссылки
 
-[Товары](https://mokky.dev/)
+[Товары](https://mokky.dev/)  
 [Деплой](https://shos-store-1mm3x9krk-vzdohins-projects.vercel.app/sneakers)
