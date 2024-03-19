@@ -20,8 +20,6 @@ const CheckoutPage = () => {
       email: userStore.user.email,
     };
 
-    console.log(cartStore.total);
-
     const generatedOrderId = ordersStore.addOrder(order);
     setOrderId(generatedOrderId);
     setTotalOrderAmount(cartStore.total);
